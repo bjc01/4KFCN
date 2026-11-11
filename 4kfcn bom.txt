@@ -1,0 +1,28 @@
+Partlist
+
+Exported from 4kfcn v1.brd at 23/10/2026 11:21
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package              Library             Position (mil)        Orientation
+
++        input 1+2-     SSW-101-02-G-Q       con-samtec          (1550 1650)           R90
+-        output 1+2-    SSW-101-02-G-Q       con-samtec          (200 1650)            R90
+BIAS     10k            9MM_SNAP-IN_POT      MusicThingModular   (1150 950)            R0
+C1       0.1uf          C5B3.5               capacitor-wima      (1550 900)            R180
+C2       220pf          C5B3.5               capacitor-wima      (1550 750)            R180
+C3       0.22uf         C5B3.5               capacitor-wima      (900 450)             R90
+C4       10uf           CPOL-RADIAL-5MM-10MM SparkFun-Capacitors (200 850)             R0
+F_BACK   100k           9MM_SNAP-IN_POT      MusicThingModular   (1150 1500)           R0
+G1       AB9V           AB9V                 battery             (150 1300)            R180
+LEVEL    500k           9MM_SNAP-IN_POT      MusicThingModular   (650 1500)            R0
+R1       82R            0207/10              resistor            (1350 450)            R270
+R2       10k            0207/10              resistor            (1450 450)            R90
+R4       1k             0207/10              resistor            (300 400)             R180
+R5       150k           0207/10              resistor            (300 250)             R180
+S1       on_off         M9040P               switch              (1550 1300)           R0
+STARVE   5k             9MM_SNAP-IN_POT      MusicThingModular   (650 950)             R0
+T1       BC108          TO18                 MusicThingModular   (400 600)             R0
+T2       BC109          TO18                 MusicThingModular   (700 350)             R270
